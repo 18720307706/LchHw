@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AdminController {
     @GetMapping("/admin")
     public  String say(){
-        return "您好第一次项目测试 请多多关照 这是我修改之后的代码";
+        return "您好第一次项目测试 请多多关照 这是我修改之后的代码 重要搞好了 win10 之后要向linux进军啦 加油~ ";
     }
 }
