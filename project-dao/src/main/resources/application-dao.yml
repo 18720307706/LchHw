@@ -1,11 +1,11 @@
-# spring整合配置
-spring:
-  # 数据源配置
+## spring整合配置
+#spring:
+#  # 数据源配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/lol?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8
-    username: Crazy
-    password: 980425Lch.
+    username: root
+    password: root
     # 使用druid连接池，当使用其他连接池的时候，可以指定type类型为对应的数据源
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
