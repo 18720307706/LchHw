@@ -1,5 +1,5 @@
 ## spring整合配置
-#spring:
+spring:
 #  # 数据源配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -30,9 +30,9 @@
       web-stat-filter:
         url-pattern: /*
         exclusions: /druid/*,*.js,*.css,*.html,*.png,*.jpg
-# mybatis配置
+## mybatis配置
 mybatis:
-  type-aliases-package: edu.nf.ch06.entity
+  type-aliases-package: edu.nf.project
   mapper-locations: classpath:/mapper/*.xml
 # 分页插件配置
 pagehelper:
